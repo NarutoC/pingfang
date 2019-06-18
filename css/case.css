@@ -1,0 +1,119 @@
+.main section .select {
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.main section .select>div {
+    overflow: scroll;
+    margin-top: 0.24rem;
+    margin-bottom: 0.24rem;
+}
+
+.main section .select>div::-webkit-scrollbar {
+    display: none;
+}
+
+.main section .select>div div {
+    width: 10rem;
+
+}
+
+.w-690 {
+    width: 6.9rem !important;
+}
+
+.main section .select>div div a {
+    display: block;
+    float: left;
+    line-height: 0.35rem;
+    padding-left: 0.17rem;
+    padding-right: 0.17rem;
+    margin-right: 0.15rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000;
+}
+
+.style {
+    background-color: #072819;
+    border-radius: 0.2rem;
+    color: #fff !important;
+}
+
+.main section .bottom {
+    height: 55vh;
+    overflow: scroll;
+}
+
+.main section .bottom::-webkit-scrollbar {
+    display: none;
+}
+
+.main section .bottom .bottom-inner {
+    height: 11.5rem;
+}
+
+.main section .bottom .bottom-inner>div:first-child {
+    overflow: scroll;
+    margin-top: 0.47rem;
+    margin-bottom: 0.48rem;
+}
+
+.main section .bottom .bottom-inner>div:first-child div {
+    width: 14rem;
+}
+
+.main section .bottom .bottom-inner>div:first-child div a {
+    display: block;
+    float: left;
+    width: 2.7rem;
+    height: 1.5rem;
+    margin-right: 0.1rem;
+}
+
+.main section .bottom .bottom-inner>div:first-child div a img {
+    display: block;
+    width: 100%;
+}
+
+.main section .bottom .bottom-inner .case {
+    margin-bottom: 0.24rem;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 20px #d7dbdf;
+}
+
+.main section .bottom .bottom-inner .case a {
+    display: block;
+}
+
+.main section .bottom .bottom-inner .case a img {
+    display: block;
+    width: 6.9rem;
+    height: 3.3rem;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+}
+
+.main section .bottom .bottom-inner .case a div {
+    background-color: #f5f5f5;
+    padding-top: 0.17rem;
+    padding-bottom: 0.23rem;
+    border-bottom-left-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+}
+
+.main section .bottom .bottom-inner .case a div span {
+    display: block;
+    padding-left: 0.25rem;
+}
+
+.main section .bottom .bottom-inner .case a div span:first-child {
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    color: #000;
+}
+
+.main section .bottom .bottom-inner .case a div span:last-child {
+    line-height: 0.3rem;
+    font-size: 0.2rem;
+    color: #313131;
+}

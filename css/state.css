@@ -1,0 +1,44 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container section {
+    width: 6.71rem;
+    margin: 0 auto;
+}
+
+.container section h1 {
+    margin-top: 1.78rem;
+    line-height: 1.4rem;
+    font-size: 0.4rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.container section div {
+    border-bottom: 1px solid #072819;
+}
+
+.container section div span {
+    margin-top: 0.73rem;
+    display: block;
+    line-height: 1.1rem;
+    font-size: 0.34rem;
+    letter-spacing: 0.1rem;
+
+}
+
+.container section a {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.64rem;
+    width: 4.74rem;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #fff;
+    border-radius: 0.1rem;
+    background-color: #072819;
+}

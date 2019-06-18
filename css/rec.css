@@ -1,0 +1,184 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #efeff4;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.main header {
+  margin-top: 0.45rem;
+  width: 100%;
+}
+
+.main header .header-inner {
+  width: 6.9rem;
+  margin: 0 auto;
+}
+
+.main header .header-inner .header-top {
+  position: relative;
+
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.main header .header-inner .header-top a {
+  display: block;
+}
+
+.main header .header-inner .header-top>a:first-child {
+  position: absolute;
+  top: 0.19rem;
+  left: 0.15rem;
+}
+
+.main header .header-inner .header-top>a:last-child {
+  position: absolute;
+  top: 0.23rem;
+  right: 0.15rem;
+}
+
+.main header .header-inner .header-top a img {
+  display: block;
+}
+
+.main header .header-inner .header-top>a:first-child img {
+  width: 0.4rem;
+  height: 0.45rem;
+}
+
+.main header .header-inner .header-top>a:last-child img {
+  width: 0.37rem;
+  height: 0.37rem;
+}
+
+.main header .header-inner .header-top div {
+  width: 1.81rem;
+  margin: 0 auto;
+  line-height: 0.83rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main header .header-inner .header-top div a {
+  font-size: 0.36rem;
+  color: #000;
+}
+
+.main header .header-inner input {
+  display: block;
+  width: 6.9rem;
+  line-height: 0.54rem;
+  font-size: 0.2rem;
+  margin-top: 0.24rem;
+  margin-bottom: 0.24rem;
+  padding-left: 0.64rem;
+  border-radius: 0.1rem;
+  background-color: #dddee1;
+  background-image: url(../images/tuijian/images/02_03.png);
+  background-repeat: no-repeat;
+  background-size: 0.37rem 0.37rem;
+  background-position: 0.14rem 0.09rem;
+  letter-spacing: 0.02rem;
+}
+
+.main header .header-inner .header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main header .header-inner .header-bottom a,
+.main header .header-inner .header-bottom a img {
+  display: block;
+}
+
+.main header .header-inner .header-bottom a img {
+  width: 1.44rem;
+  height: 1.34rem;
+}
+
+.main header .header-inner .header-bottom a span {
+  display: block;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #000;
+  margin-bottom: 0.06rem;
+  letter-spacing: 0.04rem;
+}
+
+.main section {
+  height: 75vh;
+  overflow: scroll;
+}
+
+.main section::-webkit-scrollbar {
+  display: none;
+}
+
+.main section .section-inner {
+  height: 17rem;
+}
+
+.main section .section-inner .banner {
+  margin-bottom: 0.22rem;
+}
+
+.main section .section-inner .content {
+  width: 6.9rem;
+  margin: 0 auto;
+  padding-top: 0.38rem;
+}
+
+.main section .section-inner .content .content-top a,
+.main section .section-inner .content .content-top a img,
+.main section .section-inner .content .content-top a span {
+  display: block;
+}
+
+.main section .section-inner .content .content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.24rem;
+}
+
+.main section .section-inner .content .content-top a:first-child {
+  width: 2.28rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main section .section-inner .content .content-top a:last-child {
+  width: 0.95rem;
+  line-height: 0.33rem;
+  background-color: #072819;
+  border-radius: 0.2rem;
+  font-size: 0.2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.main section .section-inner .content .content-top a:first-child img {
+  width: 0.59em;
+  height: 0.59em;
+}
+
+.main section .section-inner .content .content-top a:first-child span {
+  line-height: 0.59rem;
+  font-size: 0.3rem;
+  color: #000;
+}
+
+.main section .section-inner .content .content-bottom img {
+  display: block;
+}
+
+.main section .section-inner .content .content-bottom p {
+  line-height: 0.9rem;
+  font-size: 0.3rem;
+  color: #000;
+}

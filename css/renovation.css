@@ -1,0 +1,64 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #efeff4;
+    overflow: hidden;
+}
+
+.main header {
+    margin-top: 0.4rem;
+    padding-top: 0.29rem;
+    padding-bottom: 0.29rem;
+}
+
+.main header input {
+    display: block;
+    width: 6.9rem;
+    line-height: 0.54rem;
+    margin: 0 auto;
+    background-color: #dddee1;
+    border-radius: 0.1rem;
+}
+
+.main .banner img {
+    display: block;
+    width: 100vw;
+}
+
+.main .contain {
+    width: 6.9rem;
+    margin: 0 auto;
+    padding-top: 0.25rem;
+}
+
+.main .contain h1 {
+    line-height: 0.76rem;
+    font-size: 0.36rem;
+    color: #000;
+}
+
+.main .contain ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.main .contain ul li {
+    margin-bottom: 0.25rem;
+}
+
+.main .contain ul li a,
+.main .contain ul li a img {
+    display: block;
+}
+
+.main .contain ul li a {
+    width: 2.12rem;
+    height: 2.8rem;
+}
+
+.main .contain ul li a img {
+    width: 100%;
+}

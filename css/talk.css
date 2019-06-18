@@ -1,0 +1,91 @@
+.main .banner img {
+    display: block;
+    width: 100%;
+}
+
+.main nav {
+    width: 100vw;
+    padding-left: 0.3rem;
+    overflow: scroll;
+
+}
+
+.main nav::-webkit-scrollbar {
+    display: none;
+}
+
+.main nav ul {
+    width: 10rem;
+}
+
+.main nav ul li {
+    float: left;
+    line-height: 0.56rem;
+    margin-right: 0.7rem;
+
+}
+
+.main nav ul li a {
+    display: block;
+    font-size: 0.24rem;
+    color: #000;
+}
+
+.style {
+    font-weight: 600;
+}
+
+.main .mid {
+    width: 100vw;
+    height: 58vh;
+    overflow: scroll;
+    padding-top: 0.4rem;
+}
+
+.main .mid::-webkit-scrollbar {
+    display: none;
+}
+
+.main .mid .mid-inner {
+    height: 10.7rem;
+}
+
+.main .mid .mid-inner>div {
+    width: 6.9rem;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+    padding-left: 0.28rem;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 5px #e0e3e7
+}
+
+.main .mid .mid-inner div h3 {
+    margin-top: 0.15rem;
+    line-height: 0.56rem;
+    font-size: 0.3rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.main .mid .mid-inner div p {
+    line-height: 0.31rem;
+    font-size: 0.24rem;
+    color: #000;
+}
+
+.main .mid .mid-inner div div a,
+.main .mid .mid-inner div div span {
+    display: block;
+    float: left;
+    line-height: 0.46rem;
+    font-size: 0.2rem;
+    color: #969697;
+}
+
+.main .mid .mid-inner div div a:nth-child(3) {
+    margin-left: 0.34rem;
+}
+
+.main .mid .mid-inner div div span {
+    margin-left: 0.09rem;
+}

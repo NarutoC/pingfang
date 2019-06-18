@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/focus.css" />
+    <script>
+        document.documentElement.style.fontSize =
+            document.documentElement.clientWidth / 7.5 + "px";
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="header-inner">
+                <div class="header-top clearfix">
+                    <a href="#"><img src="images/tuijian/images/01_03.png" alt="" /></a>
+                    <div>
+                        <a href="#">关注</a>
+                        <a href="rec.html">推荐</a>
+                    </div>
+                    <a href="#"><img src="images/tuijian/images/01_04_03.png" alt="" /></a>
+                </div>
+                <input type="search" name="" id="" placeholder="大家都在搜：出租屋如何解决收纳" />
+            </div>
+        </header>
+        <section>
+            <div class="section-inner">
+                <div class="section-top">
+                    <div class="title clearfix">
+                        <h1>正在征集</h1>
+                        <a href="#">查看更多></a>
+                    </div>
+                    <div class="pic">
+                        <div class="clearfix">
+                            <a href="#"><img src="images/focus/images/1.png" alt="" /></a>
+                            <a href="#"><img src="images/focus/images/2.png" alt="" /></a>
+                            <a href="#"><img src="images/focus/images/3.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-bottom">
+                    <div class="section-bottom-inner">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <a href="#"><img src="images/tuijian/images/10.png" alt="" /><span>首页</span></a>
+                <a href="renovation.html"><img src="images/tuijian/images/5.png" alt="" /><span>装修</span></a>
+                <a href="news.html"><img src="images/tuijian/images/9.png" alt="" /></a>
+                <a href="#"><img src="images/tuijian/images/4.png" alt="" /><span>商城</span></a>
+                <a href="personal.html"><img src="images/tuijian/images/6.png" alt="" /><span>我的</span></a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var example = [{
+                head: "images/focus/images/1_03.png",
+                id: "慕尼的二黑",
+                pic: "images/focus/images/4.png",
+                describe: "不要小看厨房的面积只有20平米不到的区域，装修起来花上10W元的都有，所以厨房的装修注意点很多。首先您要确认好厨房的风格，厨房"
+            },
+            {
+                head: "images/focus/images/1_03.png",
+                id: "慕尼的二黑",
+                pic: "images/focus/images/4.png",
+                describe: "不要小看厨房的面积只有20平米不到的区域，装修起来花上10W元的都有，所以厨房的装修注意点很多。首先您要确认好厨房的风格，厨房"
+            }
+        ];
+        example.forEach(function (item) {
+            var content = document.createElement("div");
+            content.className = "content";
+            content.innerHTML = `<div class="content-top clearfix">
+                  <a class="clearfix" href="#">
+                    <img src="${item.head}" alt="" />
+                    <span>${item.id}</span>
+                  </a>
+                </div>
+                <p>
+                 ${item.describe}
+                </p>
+                <img src="${item.pic}" alt="" />
+                <div class="content-bottom">
+                  <div>
+                    <a href="#"
+                      ><img src="images/focus/images/1_07.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="clearfix">
+                    <a class="clearfix" href="#"
+                      ><img src="images/focus/images/1_09.png" alt="" /><span
+                        >23</span
+                      ></a
+                    >
+                    <a class="clearfix" href="#"
+                      ><img src="images/focus/images/1_11.png" alt="" /><span
+                        >225</span
+                      ></a
+                    >
+                    <a class="clearfix" href="#"
+                      ><img src="images/focus/images/1_0_07.png" alt="" /><span
+                        >105</span
+                      ></a
+                    >
+                  </div>
+                </div>`
+            document.querySelector(".section-bottom-inner").appendChild(content);
+        });
+    </script>
+</body>
+
+</html>

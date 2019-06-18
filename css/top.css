@@ -1,0 +1,56 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #efeff4;
+    overflow: hidden;
+}
+
+section {
+    width: 6.9rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+
+.main section .top {
+    position: relative;
+
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.main section .top a,
+.main section .top a img {
+    display: block;
+
+}
+
+.main section .top a:first-child {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.22rem;
+}
+
+.main section .top a:first-child img {
+    width: 0.25rem;
+    height: 0.39rem;
+}
+
+.main section .top a:last-child {
+    position: absolute;
+
+    top: 0.25rem;
+    right: 0.14rem;
+
+}
+
+.main section .top a:last-child img {
+    width: 0.41rem;
+    height: 0.39rem;
+}
+
+.main section .top h1 {
+    width: 1.52rem;
+    line-height: 0.89rem;
+    font-size: 0.36rem;
+    margin-left: 0.82rem;
+    letter-spacing: 0.02rem;
+}

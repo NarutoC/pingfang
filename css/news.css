@@ -1,0 +1,111 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #35b0ab;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.main section {
+    width: 6.9rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
+
+.main section .top {
+    margin-bottom: 0.5rem;
+}
+
+.main section .top a,
+.main section .top a img {
+    display: block;
+}
+
+.main section .top a:first-child {
+    float: left;
+    width: 0.45em;
+    height: 0.45em;
+}
+
+.main section .top p {
+    float: left;
+    margin-left: 0.24rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.main section .top a:last-child {
+    float: right;
+    line-height: 0.45rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.main section .mid .content p {
+    width: 4.85rem;
+    float: left;
+    line-height: 0.88rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.main section .mid .content a,
+.main section .mid .content img {
+    display: block;
+}
+
+.main section .mid .content a {
+    float: right;
+    width: 1.45rem;
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    color: #fff;
+    margin-top: 0.2rem;
+    margin-bottom: 0.18rem;
+    text-align: center;
+    background-color: #f37b5b;
+    border-radius: 0.1rem;
+    margin-right: 0.03rem;
+
+}
+
+.main section .mid .release {
+    margin-top: 2.6rem;
+    margin-bottom: 1.77rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main section .mid .release a,
+.main section .mid .release a img,
+.main section .mid .release a span {
+    display: block;
+}
+
+.main section .mid .release a img {
+    width: 1.39em;
+    height: 1.32em;
+}
+
+.main section .mid .release a span {
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+}
+
+.main section .mid .quit a {
+    display: block;
+    width: 0.75em;
+    height: 0.75em;
+    margin: 0 auto;
+    margin-top: 0.11rem;
+}
+
+.main section .mid .quit a img {
+    display: block;
+}

@@ -1,0 +1,50 @@
+.public {
+    display: block;
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+    background-color: #072819;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    text-align: center;
+    color: #a2adab;
+    letter-spacing: 0.06rem;
+}
+
+.main section .select {
+    padding: 0.24rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.main section .select a {
+    margin-right: 0.11rem;
+}
+
+.main section .mid h2 {
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+}
+
+.main section .mid img {
+    width: 6.9rem;
+    height: 8.6rem;
+}
+
+.main section .bottom {
+    margin-top: 0.34rem;
+    width: 5.7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.main section .bottom a {
+    width: 0.84rem;
+    text-align: center;
+    padding: 0;
+    margin-right: 0.11rem;
+    margin-bottom: 0.14rem;
+}

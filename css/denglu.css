@@ -1,0 +1,173 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/denglu/images/denglu2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container section {
+    width: 6.59rem;
+    margin: 0 auto;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.75rem;
+}
+
+.container form {
+    margin-bottom: 3.3rem;
+}
+
+.container form input {
+    margin: 0 auto;
+    display: block;
+    width: 6.59rem;
+    line-height: 0.84rem;
+}
+
+.container form>input:first-child {
+    background-image: url(../images/denglu/images/user_03.png);
+    background-size: 0.45rem 0.45rem;
+    background-repeat: no-repeat;
+    background-position: 0.08rem 0.21rem;
+}
+
+.container form input:nth-child(2) {
+    background-image: url(../images/denglu/images/clock_07.png);
+    background-repeat: no-repeat;
+    background-size: 0.43rem 0.52rem;
+    background-position: 0.1rem 0.14rem;
+}
+
+
+.container form a:nth-child(3) {
+    text-align: center;
+    display: block;
+    width: 6.59rem;
+    line-height: 0.84rem;
+    background-color: #f37b5b;
+    border-radius: 0.1rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.container form div span {
+    float: right;
+}
+
+.container .login {
+    width: 3.3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .login a {
+    display: block;
+}
+
+.container .login a span {
+    display: block;
+    font-size: 0.36rem;
+    color: #f3e3c0;
+}
+
+.container .fail {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container .fail div {
+    margin: 0 auto;
+    margin-top: 60%;
+    width: 6rem;
+    text-align: center;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+.container .fail div button {
+    width: 100%;
+    line-height: 0.7rem;
+    border-bottom-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+    background-color: #fff;
+    border-top: 1px solid #000;
+}
+
+.db {
+    display: block;
+}
+
+.pl-80 {
+    padding-left: 0.8rem;
+}
+
+.m-0 {
+    margin: 0 auto;
+}
+
+.mb-4 {
+    margin-bottom: 0.04rem !important;
+}
+
+.mb-43 {
+    margin-bottom: 0.43rem !important;
+}
+
+.mr-32 {
+    margin-right: 0.32rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.lh-52 {
+    line-height: 52px;
+}
+
+.lh-63 {
+    line-height: 0.63rem;
+}
+
+.lh-90 {
+    line-height: 0.9rem;
+}
+
+.fz-16 {
+    font-size: 0.16rem;
+}
+
+.fz-24 {
+    font-size: 0.24rem;
+}
+
+.fz-28 {
+    font-size: 0.28rem;
+}
+
+.fz-32 {
+    font-size: 0.32rem;
+}
+
+.c-f {
+    color: #fff;
+}
+
+.br-5 {
+    border-radius: 0.05rem;
+}

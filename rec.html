@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/rec.css" />
+    <script>
+        document.documentElement.style.fontSize =
+            document.documentElement.clientWidth / 7.5 + "px";
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="header-inner">
+                <div class="header-top clearfix">
+                    <a href="#"><img src="images/tuijian/images/01_03.png" alt="" /></a>
+                    <div>
+                        <a href="focus.html">关注</a>
+                        <a href="#">推荐</a>
+                    </div>
+                    <a href="#"><img src="images/tuijian/images/01_04_03.png" alt="" /></a>
+                </div>
+                <input type="search" name="" id="" placeholder="大家都在搜：出租屋如何解决收纳" />
+                <div class="header-bottom">
+                    <a href="intelligence.html"><img src="images/tuijian/images/3.png" alt="" /><span>智能生成</span></a>
+                    <a href="look.html"><img src="images/tuijian/images/1.png" alt="" /><span>看图片</span></a>
+                    <a href="case.html"><img src="images/tuijian/images/2.png" alt="" /><span>整屋案例</span></a>
+                    <a href="talk.html"><img src="images/tuijian/images/7.png" alt="" /><span>话题讨论</span></a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="section-inner">
+                <div class="banner">
+                    <img src="images/rec/images/01_02.png" alt="">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <a href="#"><img src="images/tuijian/images/10.png" alt="" /><span>首页</span></a>
+                <a href="renovation.html"><img src="images/tuijian/images/5.png" alt="" /><span>装修</span></a>
+                <a href="news.html"><img src="images/tuijian/images/9.png" alt="" /></a>
+                <a href="#"><img src="images/tuijian/images/4.png" alt="" /><span>商城</span></a>
+                <a href="personal.html"><img src="images/tuijian/images/6.png" alt="" /><span>我的</span></a>
+            </div>
+        </footer>
+
+    </div>
+    <script>
+        var example = [{
+                head: 'images/rec/images/01_05.png',
+                id: '慕尼的二黑',
+                focus: '关注',
+                pic: 'images/rec/images/01_08.png',
+                describe: '简约风格如何打造空间的质感与色彩层次'
+            },
+            {
+                head: 'images/rec/images/01_05.png',
+                id: '慕尼的二黑',
+                focus: '关注',
+                pic: 'images/rec/images/01_08.png',
+                describe: '简约风格如何打造空间的质感与色彩层次'
+            }
+        ]
+        example.forEach(function (item) {
+            var content = document.createElement('div')
+            content.className = 'content'
+            content.innerHTML = "<div class='content-top'>" +
+                "<a href='#'>" +
+                "<img src='" + item.head + "' alt=''>" +
+                "<span>" + item.id + "</span>" +
+                "</a>" +
+                "<a class='focus' href='#'>" + item.focus + "</a>" +
+                "</div>" +
+                "<div class='content-bottom'>" +
+                "<img src='" + item.pic + "' alt=''>" +
+                "<p>" + item.describe + "</p>" +
+                "</div>"
+            document.querySelector('.section-inner').appendChild(content)
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+img {
+    width: 100%;
+}
+
+.main header .top ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main header {
+    overflow: hidden;
+    background-color: #072819;
+}
+
+.main header .top {
+    margin-top: 0.86rem;
+    margin-bottom: 0.42rem;
+}
+
+.main header .top ul li {
+    margin-left: 0.54rem;
+}
+
+.main header .top ul li:last-child {
+    margin-right: 0.36rem;
+}
+
+.main header .top ul li a,
+.main header .top ul li a img {
+    display: block;
+}
+
+.main header .top ul li a img {
+    width: 100%;
+}
+
+.main header .top ul li a {
+    width: 0.39rem;
+    height: 0.39rem;
+}
+
+.main header .bottom {
+    padding-left: 0.3rem;
+    margin-bottom: 0.86rem;
+}
+
+.main header .bottom ul li {
+    float: left;
+}
+
+.main header .bottom ul li a,
+.main header .bottom ul li a img,
+.main header .bottom ul li a span {
+    display: block;
+}
+
+.main header .bottom ul li:first-child a {
+    width: 1.39rem;
+    height: 1.39rem;
+}
+
+.main header .bottom ul li:nth-child(2) a {
+    margin-left: 0.34rem;
+}
+
+.main header .bottom ul li:nth-child(2) a span:first-child {
+    margin-top: 0.26rem;
+    line-height: 0.48rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.main header .bottom ul li:nth-child(2) a span:last-child {
+    line-height: 0.48rem;
+    font-size: 0.24rem;
+    color: #fff;
+    margin-bottom: 0.23rem;
+}
+
+.main header .bottom ul li:last-child {
+    float: right;
+}
+
+.main header .bottom ul li:last-child a {
+    display: block;
+    margin-top: 0.44rem;
+    margin-bottom: 0.44rem;
+    margin-right: -0.15rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    line-height: 0.52rem;
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: #f37b5b;
+    border-radius: 0.1rem;
+}
+
+.main section {
+    height: 75vh;
+    overflow: scroll;
+}
+
+.main section::-webkit-scrollbar {
+    display: none;
+}
+
+.main section .section-inner {
+    width: 6.9rem;
+    margin: 0 auto;
+    height: 16.50rem;
+    padding-top: 0.37rem;
+}
+
+.main section .section-inner .banner {
+    margin-bottom: 0.1rem;
+}
+
+.main section .section-inner .my {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0.75rem;
+}
+
+.main section .section-inner .my a,
+.main section .section-inner .my a img,
+.main section .section-inner .my a span {
+    display: block;
+}
+
+.main section .section-inner .my a {
+    width: 1.5rem;
+    margin-top: 0.83rem;
+}
+
+.main section .section-inner .my a img {
+    width: 0.55em;
+    height: 0.55em;
+    margin: 0 auto;
+}
+
+.main section .section-inner .my a span {
+    width: 100%;
+    text-align: center;
+    line-height: 0.56rem;
+    font-size: 0.2rem;
+    color: #000;
+}
+
+.main section .section-inner .mes a,
+.main section .section-inner .mes a span,
+.main section .section-inner .mes a img {
+    display: block;
+}
+
+.main section .section-inner .mes a {
+    border-top: 1px solid #000;
+    padding-left: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main section .section-inner .mes a:last-child {
+    border-bottom: 1px solid #000;
+    margin-bottom: 0.52rem;
+}
+
+.main section .section-inner .mes a span {
+    line-height: 0.95rem;
+    font-size: 0.24rem;
+    color: #000;
+
+}
+
+.main section .section-inner .mes a img {
+    width: 0.16rem;
+    height: 0.26rem;
+}
+
+.main section .section-inner .logo {
+    width: 1.27rem;
+    margin: 0 auto;
+}
+
+.main section .section-inner .logo img {
+    display: block;
+}
+
+.main section .section-inner .logo span {
+    display: block;
+    line-height: 0.38rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000;
+}

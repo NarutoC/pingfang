@@ -1,0 +1,42 @@
+.main footer {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+    background-color: #efeff4;
+    box-shadow: 2px 2px 20px #dfe2e6;
+}
+
+.main footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main footer div a,
+.main footer div a img,
+.main footer div a span {
+    display: block;
+}
+
+.main footer div a {
+    margin-top: 0.13rem;
+}
+
+.main footer div a img {
+    width: 0.61rem;
+    height: 0.57rem;
+}
+
+.main footer div a:nth-child(3) img {
+    width: 0.91rem;
+    height: 0.78rem;
+}
+
+.main footer div a span {
+    line-height: 0.32rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #000;
+    letter-spacing: 0.02rem;
+}

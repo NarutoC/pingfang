@@ -1,0 +1,240 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #efeff4;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.main header {
+    margin-top: 0.45rem;
+    width: 100%;
+}
+
+.main header .header-inner {
+    width: 6.9rem;
+    margin: 0 auto;
+}
+
+.main header .header-inner .header-top {
+    position: relative;
+
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.main header .header-inner .header-top a {
+    display: block;
+}
+
+.main header .header-inner .header-top>a:first-child {
+    position: absolute;
+    top: 0.19rem;
+    left: 0.15rem;
+}
+
+.main header .header-inner .header-top>a:last-child {
+    position: absolute;
+    top: 0.23rem;
+    right: 0.15rem;
+}
+
+.main header .header-inner .header-top a img {
+    display: block;
+}
+
+.main header .header-inner .header-top>a:first-child img {
+    width: 0.4rem;
+    height: 0.45rem;
+}
+
+.main header .header-inner .header-top>a:last-child img {
+    width: 0.37rem;
+    height: 0.37rem;
+}
+
+.main header .header-inner .header-top div {
+    width: 1.81rem;
+    margin: 0 auto;
+    line-height: 0.83rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main header .header-inner .header-top div a {
+    font-size: 0.36rem;
+    color: #000;
+}
+
+.main header .header-inner input {
+    display: block;
+    width: 6.9rem;
+    line-height: 0.54rem;
+    font-size: 0.2rem;
+    margin-top: 0.24rem;
+    margin-bottom: 0.24rem;
+    padding-left: 0.64rem;
+    border-radius: 0.1rem;
+    background-color: #dddee1;
+    background-image: url(../images/tuijian/images/02_03.png);
+    background-repeat: no-repeat;
+    background-size: 0.37rem 0.37rem;
+    background-position: 0.14rem 0.09rem;
+    letter-spacing: 0.02rem;
+}
+
+.main section {
+    height: 75vh;
+    overflow: scroll;
+}
+
+.main section::-webkit-scrollbar {
+    display: none;
+}
+
+.main section .section-inner {
+    height: 17rem;
+}
+
+.main section .section-inner .section-top {
+    margin-bottom: 0.1rem;
+}
+
+.main section .section-inner .section-top .title h1 {
+    float: left;
+    line-height: 0.76rem;
+    font-size: 0.3rem;
+    color: #000;
+}
+
+.main section .section-inner .section-top .title {
+    padding-left: 0.3rem;
+}
+
+.main section .section-inner .section-top .title a {
+    display: block;
+    float: right;
+    margin-right: 0.4rem;
+    line-height: 0.76rem;
+    font-size: 0.2rem;
+    color: #aeaeae;
+}
+
+.main section .section-inner .section-top .pic {
+    padding-left: 0.3rem;
+}
+
+.main section .section-inner .section-top .pic {
+    width: 100vw;
+    overflow: scroll;
+}
+
+.main section .section-inner .section-top .pic::-webkit-scrollbar {
+    display: none;
+}
+
+.main section .section-inner .section-top .pic div {
+    width: 9rem;
+}
+
+.main section .section-inner .section-top .pic a,
+.main section .section-inner .section-top .pic a img {
+    display: block;
+}
+
+.main section .section-inner .section-top .pic a {
+    float: left;
+    margin-right: 0.1rem;
+    width: 2.7rem;
+    height: 1.5rem;
+}
+
+.main section .section-inner .section-bottom {
+    width: 6.9rem;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+.main section .section-inner .section-bottom .section-bottom-inner .content {
+    padding-top: 0.6rem;
+}
+
+.main section .section-inner .section-bottom .section-bottom-inner .content img {
+    display: block;
+}
+
+.main section .section-inner .section-bottom .section-bottom-inner .content .content-top a {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.main section .section-inner .section-bottom .section-bottom-inner .content .content-top a img {
+    display: block;
+    width: 0.58rem;
+    height: 0.58rem;
+    float: left;
+}
+
+.main section .section-inner .section-bottom .section-bottom-inner .content .content-top a span {
+    display: block;
+    float: left;
+    margin-left: 0.23rem;
+    line-height: 0.58rem;
+    font-size: 0.3rem;
+    color: #000;
+}
+
+.main section .section-inner .section-bottom .section-bottom-inner .content p {
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    color: #000;
+    margin-bottom: 0.08rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:first-child a img {
+    width: 0.25rem;
+    height: 0.35rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:last-child {
+    margin-right: 0.22rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:last-child a {
+    float: left;
+    margin-left: 0.2rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:last-child a img,
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:last-child a span {
+    float: left;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:last-child a span {
+    margin-left: 0.13rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom div:last-child a img {
+    width: 0.35rem;
+    height: 0.35rem;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom a,
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom a img,
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom a span {
+    display: block;
+}
+
+section .section-inner .section-bottom .section-bottom-inner .content .content-bottom a span {
+    line-height: 0.37rem;
+    font-size: 0.24rem;
+    color: #000;
+}

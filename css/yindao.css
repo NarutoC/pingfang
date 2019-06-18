@@ -1,0 +1,44 @@
+.swiper-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-4 {
+  position: relative;
+}
+
+.page-4 a {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2.77rem;
+  width: 6.47rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+  background-color: #f37b5b;
+  color: #0f3222;
+  border-radius: 0.5rem;
+}
+
+.swiper-slide.page-1 {
+  background-image: url(../images/yindao/images/1.jpg);
+}
+
+.swiper-slide.page-2 {
+  background-image: url(../images/yindao/images/2.jpg);
+}
+
+.swiper-slide.page-3 {
+  background-image: url(../images/yindao/images/3.jpg);
+}
+
+.swiper-slide.page-4 {
+  background-image: url(../images/yindao/images/4.jpg);
+}

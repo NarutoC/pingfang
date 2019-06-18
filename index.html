@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/swiper.min.css" />
+  <link rel="stylesheet" href="css/public.css" />
+  <link rel="stylesheet" href="css/yindao.css" />
+  <script>
+    document.documentElement.style.fontSize =
+      document.documentElement.clientWidth / 7.5 + "px";
+  </script>
+</head>
+
+<body>
+  <div class="my-swiper">
+    <div class="swiper-container my-swiper-one">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide page-1"></div>
+        <div class="swiper-slide page-2"></div>
+        <div class="swiper-slide page-3"></div>
+        <div class="swiper-slide page-4">
+          <a href="denglu.html">欢迎回家</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper(".my-swiper-one", {
+      direction: "horizontal", // 垂直切换选项
+      loop: false, // 循环模式选项
+
+      slidesPerView: 1,
+      spaceBetween: 0
+    });
+  </script>
+</body>
+
+</html>
